@@ -1,0 +1,76 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/1.0.0/schema.json",
+  "themeCollection": {
+    "baseTheme": {
+      "name": "CY24SU06",
+      "reportVersionAtImport": "5.55",
+      "type": "SharedResources"
+    }
+  },
+  "layoutOptimization": "None",
+  "objects": {
+    "section": [
+      {
+        "properties": {
+          "verticalAlignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Top'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "outspacePane": [
+      {
+        "properties": {
+          "expanded": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "resourcePackages": [
+    {
+      "id": 652129,
+      "name": "WordCloud1447959067750_OrgStore",
+      "type": "OrganizationalStoreCustomVisual",
+      "items": [
+        {
+          "name": "resources/WordCloud1447959067750_OrgStore.pbiviz.json",
+          "path": "2/0c49c59c-bd77-477d-a53f-c27105410870/ResourcePackage/BlobIdV2-e640cf6a-2d17-4940-9570-29e372684e71vt3NLcj2Hjzko-AoD-ubOcrQ-gZpjrRKyQnIQ0vcqbQ=.json",
+          "type": "CustomVisualMetadata",
+          "id": 1802773
+        }
+      ]
+    },
+    {
+      "id": 852331,
+      "name": "SharedResources",
+      "type": "SharedResources",
+      "items": [
+        {
+          "name": "CY24SU06",
+          "path": "BaseThemes/CY24SU06.json",
+          "type": "BaseTheme",
+          "id": 2285543
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "useStylableVisualContainerHeader": true,
+    "defaultDrillFilterOtherVisuals": true,
+    "allowChangeFilterTypes": true,
+    "useEnhancedTooltips": true,
+    "allowAutomatedInsightsNotification": true,
+    "useDefaultAggregateDisplayName": true
+  },
+  "reportSource": "QuickCreate"
+}

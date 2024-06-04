@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.0.0/schema.json",
+  "name": "d2ee2f6dd30938e531b3",
+  "position": {
+    "x": 634,
+    "y": 84,
+    "width": 634,
+    "height": 624,
+    "z": 8000,
+    "tabOrder": 6000
+  },
+  "visual": {
+    "visualType": "WordCloud1447959067750_OrgStore",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Dataset"
+                    }
+                  },
+                  "Property": "Name"
+                }
+              },
+              "queryRef": "Dataset.Name",
+              "nativeQueryRef": "Name"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
